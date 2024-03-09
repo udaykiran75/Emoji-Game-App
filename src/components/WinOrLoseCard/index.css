@@ -1,0 +1,71 @@
+.heading {
+  color: white;
+  font-size: 40px;
+  font-family: Roboto;
+  margin-bottom: 0px;
+}
+.score-text {
+  color: white;
+  font-size: 35px;
+  font-family: Roboto;
+  margin-bottom: 0px;
+}
+.score {
+  color: #6a59ff;
+  font-size: 40px;
+  margin-top: 0px;
+}
+.play-button {
+  background-color: #ffce27;
+  color: black;
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.score-card-container {
+  background-color: #ffffff33;
+  border-radius: 10px;
+  padding: 45px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ffffff30;
+  margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+  .display-image {
+    height: 270px;
+  }
+}
+
+@media (min-width: 768px) {
+  .score-card-container {
+    background-color: #ffffff33;
+    border-radius: 10px;
+    padding: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff30;
+    display: flex;
+    align-items: center;
+    min-height: 700px;
+  }
+  .score-container {
+    order: 0;
+  }
+  .display-image {
+    height: 500px;
+    width: 420px;
+    order: 1;
+  }
+}
